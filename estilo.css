@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding:0px;
+  font-family:calibri;
+  box-sizing:border-box;
+}
+.img{
+  margin: 20px auto 0px auto;
+  width:10em;
+  height: 10em;
+  background-image: url('img/guerrero.jpg');
+  background-size: cover;
+  background-position: center center;
+  radius:30px 30px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 5px;
+}
+body{
+  background-image:url('img/patron.png')
+}
+fieldset{
+
+  width: 85%;
+  margin: 0px auto;
+  border:none;
+  /* background-color:#FED3CA; */
+  /* background-color:white; */
+}
+form{
+  background-color:#393939;
+  width: 331px;
+  margin:20px auto 0px auto;
+  border-radius:10px;
+}
+label{
+  color:white;
+  font-size:1.8em;
+  margin-bottom: 12px;
+  display: block;
+  text-align: center;
+}
+input{
+  font-size:16px;
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  /* border-radius: 2px; */
+  /* box-sizing:border-box; */
+  display:block;
+  width: 100%;
+  padding:20px;
+  border-radius:3px;
+  /* margin: 10px 0px 0px 0px; */
+  background-color:white;
+  /* box-shadow:none; */
+}
+input:focus{
+  /* border:1.5px solid #FC431D */
+  background-color: #E3ECFF;
+}
+
+[type="submit"]{
+  border-radius: 30px;
+  color:white;
+  width: 40%;
+  margin:0px 30%;
+  background-color:#306FC5;
+  padding:10px;
+}
+[type="submit"]:hover{
+  background-color: #FC431D;
+  cursor:pointer;
+}
+@media screen and (max-width:360px) {
+  form{
+    width: 100%;
+  }
+}
